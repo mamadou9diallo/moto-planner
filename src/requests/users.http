@@ -1,0 +1,37 @@
+### 🔍 GET all users
+GET http://localhost:3000/users
+Content-Type: application/json
+
+###
+
+### 🔍 GET user by ID
+GET http://localhost:3000/users/1
+Content-Type: application/json
+
+###
+
+### ➕ CREATE a new user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "pseudo": "mamadouu8",
+  "email": "mamadou@gmail.com"
+}
+
+###
+
+### ✏️ UPDATE user
+PUT http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+  "pseudo": "mamadouu7",
+  "email": "mamadou.yahoo.fr"
+}
+
+###
+
+### 🗑 DELETE user
+DELETE http://localhost:3000/users/1
+Content-Type: application/json
